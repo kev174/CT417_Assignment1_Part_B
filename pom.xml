@@ -18,6 +18,18 @@
 	    <version>b688c327b1</version>
 	</dependency>
 	</dependencies>
+	
+	<build>
+	    <pluginManagement>
+	      <plugins>
+	        <plugin>
+	          <artifactId>maven-resources-plugin</artifactId>
+	          <version>2.6</version>
+	        </plugin>           
+	      </plugins>
+	    </pluginManagement>   
+	</build>
+
 	<properties>
 	  	<maven.compiler.source>1.6</maven.compiler.source>
 	  	<maven.compiler.target>1.6</maven.compiler.target>
